@@ -7,10 +7,11 @@ import joblib
 model = joblib.load("diabetes_model.pkl")
 
 st.title("🩺 Diabetes Prediction")
-st.write("## By DSA 2025")
+st.write("## Captain Eboy")
 
 st.markdown("""
 Enter your medical information below to predict whether you're likely to have diabetes.
+LIVE URL: https://predict-diabetes26.streamlit.app/
 """)
 
 # Input fields
